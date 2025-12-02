@@ -1,0 +1,268 @@
+html{
+    background-image: url("images/bats.gif")!important;
+    background-repeat: repeat;
+
+}
+
+body{
+    font-family: sans-serif;
+    width: 800px;
+    background-color: white;
+    border: 1px solid black;
+    box-shadow: 0px 13px 14px 7px;
+    margin: 1em auto;
+}
+
+header{
+    border-bottom: 2px solid black;
+    background-image: linear-gradient(45deg, white, orange, black);
+    padding: 1em 0;
+}
+
+header h2{
+    font-size: 250%;
+    font-weight: bold;
+    /* color: orange;
+    font-style: italic;
+    text-shadow: 2px 2px 2px black; */
+    color: black;
+    text-indent: 1.5px;
+    line-height: 3px;
+}
+
+header h3{
+    font-size: 125%;
+    text-indent: 1px;
+    line-height: 0px;
+}
+
+body h1, h2, h3, p, ul{
+    padding: 0em 1em;
+
+}
+
+header img{
+    float: left;
+    padding: 0.5em 1em;
+}
+
+#nav_menu ul{
+    list-style-type: none;
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+#nav_menu ul li{
+    float: left;
+    padding: 0;
+}
+
+#nav_menu ul li a{
+    text-align: center;
+    display: block;
+    width: 160px;
+    padding: 0.5em 0;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    font-weight: 210;
+}
+
+#nav_menu ul ul{
+    display: none;
+    position: absolute;
+    top: 100%;
+}
+
+#nav_menu ul ul li{
+    float: none;
+}
+
+#nav_menu ul li:hover > ul{
+    display: block;
+}
+
+#nav_menu > ul::after{
+    display: block;
+    clear: both;
+    content: "";
+}
+
+/*#nav_menu ul li a.current{
+    color: orange;
+}*/
+
+#nav_menu ul li a:hover, #nav_menu ul li a:focus{
+    background-color: gray;
+}
+
+aside{
+    float:left;
+    width: 160px;
+    /*border: 2px solid red;*/
+}
+
+aside ul{
+    list-style-type: none;
+    margin-left: 0.5em;
+}
+
+#left_nav_menu ul li{
+    width: 108px;
+    margin-bottom: 0.5em;
+    border: 3px solid black;
+    padding: 0;
+}
+
+#left_nav_menu ul li a {
+    display:block ;
+    text-decoration: none;
+    padding: 0.25em 0.5em;
+    color: black;
+    font-size: 100%;
+    background-color: orange;
+    font-weight: bold;
+}
+
+#left_nav_menu ul li a:hover, #left_nav_menu ul li a:focus{
+    color:green;
+}
+
+#cimage{
+    width: 170px;
+    height: auto;
+    float: left;
+    vertical-align: middle;
+    /*padding-bottom: 1px;*/
+    margin-right: 30px;
+}
+
+/*figure img{
+    width: 34.1px;
+    height: auto;
+}*/
+
+a:link, a:visited{
+    color: black;
+}
+
+a:hover, a:focus{
+    color: green;
+}
+
+/*#right_box{
+    float: right;
+    background-color: #F5DEB3;
+    height: 295px;
+}*/
+
+ul{
+    list-style-type: none;
+    line-height: 1.5em;
+}
+
+li{
+    line-height: 1.5em;
+}
+
+footer{
+    font-size: 90%;
+    border-top: 2px solid black;
+    text-align: center;
+    padding: 0.5em 1em;
+    line-height: 0.2em;
+    clear:both;
+    margin-left: 0px;
+    background-image: linear-gradient(45deg, white, orange, black) !important;
+    margin-top: 0;
+    margin: 0;
+}
+
+#right_box h5{
+    /*padding-left: 0.8px;
+    padding-right: 0.8px;*/
+    text-align: left;
+    padding: 0 0.2em;
+    margin-top: 0;
+    margin-bottom: 0.5em;
+    font-size: 72%;
+    font-weight: bold;
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
+
+#sentence{
+    font-size: 110%;
+    /*border: 2px solid red;*/
+    /*width: 190px;*/
+    /*float: right;*/
+    padding:0;
+    margin-left: 3em;
+    /*padding: 0 2em;*/
+}
+
+section{
+    /*border: 2px solid red;*/
+    /*margin-bottom: 14.9em;*/
+    float: left;
+    width: 470px;
+    padding: 0 1em;
+    box-sizing: border-box;
+}
+
+section h1{
+    font-size: 150%;
+}
+
+/*#extraspace{
+    border: 2px solid red;
+    margin-bottom: 0;
+}*/
+
+.main {
+    /*border: 0.5px solid black;*/
+    clear: both;
+    overflow: auto;
+    padding-bottom: 0;
+}
+
+#right_box {
+    float: right;
+    background-color: #F5DEB3;
+    width: 160px;
+    padding: 0.5em 0.5em 0 0.5em;
+    box-sizing: border-box;
+    height: auto;
+    /*padding-bottom: 0;*/
+}
+
+#right_box ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#right_box li {
+    /*float: left;*/
+    text-align: left;
+    margin-bottom: 1em;
+    padding-left: 0.5em;
+}
+
+.product-thumb {
+    width: 50px;
+    height: auto;
+    display: block;
+    margin: 0 0 0.2em 0;
+    padding: 0;
+    /*float: left;*/
+}
+
+#right_box p {
+    font-size: 90%;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+

@@ -1,0 +1,231 @@
+html{
+    background-image: url("images/bats.gif")!important;
+    background-repeat: repeat;
+}
+
+body{
+    font-family: sans-serif;
+    background-color: white;
+    border: 1px solid black;
+    width: 800px;
+    box-shadow: 0px 13px 14px 7px;
+    margin: 1em auto;
+}
+
+header{
+    background-image: linear-gradient(45deg, white, orange, black);
+    border-bottom: 2px solid black;
+    padding: 1em 0;
+}
+
+header h2{
+    color: black;
+    font-size: 250%;
+    font-weight: bold;
+   /* color: orange;
+    font-style: italic;
+    text-shadow: 2px 2px 2px black; */
+    text-indent: 1.6px;
+    line-height: 3px;
+}
+
+header h3{
+    font-size: 126%;
+    line-height: 0px;
+    text-indent: 1px;
+}
+
+body h1{
+    font-size: 150%;
+}
+
+header img{
+    float: left;
+    padding: 1em 1.5em;
+}
+
+section img{
+    margin-left: 1.8em;
+}
+
+ul{
+    margin: 0 1.05em;
+    line-height: 1.5em;
+    padding-top: 2em;
+}
+
+li{
+    font-size: 110%;
+    padding-left: 0.25em;
+}
+
+#left_nav_menu ul li a:hover, #left_nav_menu ul li a:focus{
+    color: green;
+}
+
+#left_nav_menu ul li{
+    border: 3px solid black;
+    width: 108px;
+    margin-bottom: 0.5em;
+    padding: 0;
+}
+
+#left_nav_menu ul li a {
+    background-color: orange;
+    color: black;
+    font-size: 100%;
+    font-weight: bold;
+    display: block ;
+    text-decoration: none;
+    padding: 0.25em 0.5em;
+}
+
+footer{
+    font-size: 90%;
+    text-align:center;
+    border-top: 2px solid black;
+    padding: 0.5em 1em;
+    line-height: 1px;
+    clear:left;
+    background-image: linear-gradient(45deg, white, orange, black) !important;
+}
+
+aside{
+    float:left;
+    width: 160px;
+    height: 500px;
+    /*border: 2px solid red;*/
+}
+
+aside ul{
+    list-style-type: none;
+    margin-left: 0.5em;
+}
+
+#nav_menu ul{
+    list-style-type: none;
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+#nav_menu ul li{
+    float: left;
+    padding: 0;
+}
+
+#nav_menu ul li a{
+    background-color: black;
+    color: white;
+    font-weight: 210;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    width: 160px;
+    padding: 0.5em 0;
+}
+
+#nav_menu ul ul{
+    display: none;
+    position: absolute;
+    top: 100%;
+}
+
+#nav_menu ul ul li{
+    float: none;
+}
+
+#nav_menu ul li:hover > ul{
+    display: block;
+}
+
+#nav_menu > ul::after{
+    display: block;
+    clear: both;
+    content: "";
+}
+
+#nav_menu ul li a.current_page{
+    color: orange;
+}
+
+#nav_menu ul li a:hover, #nav_menu ul li a:focus{
+    background-color: gray;
+}
+
+section {
+    /*border:2px solid red;*/
+    float: right;
+    width: 80%;
+}
+
+section, figure{
+    margin-bottom: 0;
+}
+
+table{
+    width: 90%;
+    border-collapse: collapse;
+    margin-bottom: 0;
+}
+
+th{
+    text-align: left;
+}
+
+thead th{
+    color: grey;
+    padding-bottom: 0.5em;
+}
+
+td:nth-of-type(2){
+    background-color: rgb(247, 209, 139);
+    text-align: right;
+    width: 17.1%;
+}
+
+figcaption{
+    font-size: 190%;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 0.75em;
+    padding-right: 92px;
+}
+
+figure{
+    padding: 1em 1em;
+    width: 80%;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+thead th:nth-child(3){
+    text-align: right;
+}
+
+tbody th{
+    vertical-align: top;
+}
+
+th, td{
+    padding: 0.30em 0em;
+    padding-right: 0.25em;
+}
+
+footer{
+    font-size: 90%;
+    text-align:center;
+    border-top: 2px solid black;
+    padding: 0.5em 1em;
+    line-height: 1px;
+    clear:left;
+    background-image: linear-gradient(45deg, white, orange, black) !important;
+}
+
+#unchanged a:visited{
+    color: black;
+}
+
+tbody a:link {
+    color: black;
+}

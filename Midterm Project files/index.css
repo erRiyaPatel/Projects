@@ -1,0 +1,232 @@
+html{
+    background-image: url("images/bats.gif")!important;
+    background-repeat: repeat;
+}
+
+body{
+    font-family: sans-serif;
+    width: 800px;
+    background-color: white;
+    border: 1px solid black;
+    box-shadow: 0px 13px 14px 7px;
+    margin: 1em auto;
+}
+
+header{
+    background-image: linear-gradient(45deg, white, orange, black);
+    border-bottom: 2px solid black;
+    padding: 1em 0;
+}
+
+header h2{
+    color: black;
+    font-size: 250%;
+    font-weight: bold;
+   /* color: orange;
+    font-style: italic;
+    text-shadow: 2px 2px 2px black; */
+    text-indent: 1.6px;
+    line-height: 3px;
+}
+
+header h3{
+    font-size: 126%;
+    line-height: 0px;
+    text-indent: 1px;
+}
+
+body h1{
+    font-size: 150%;
+}
+
+body h1:first-child::first-letter{
+    font-size: 210%;
+}
+
+body h1, h2, h3, p, ul{
+    padding: 0em 1em;
+}
+
+#p1, #p2 {
+    padding-left: 1.5em;
+    font-size: 105%;
+    font-weight: 510;
+}
+
+#p3 {
+    padding-left: 1.2em;
+    font-size: 105%;
+}
+
+header img{
+    float: left;
+    padding: 1em 1.5em;
+}
+
+section a img, section img{
+    margin-left: 1.5em;
+    margin-bottom: 0;
+    display: block;
+}
+
+
+body p{
+    font-size: 100%;
+    font-weight: 510;
+}
+
+a:link{
+    color: orange;
+    font-weight: bold;
+}
+
+a:hover, a:focus{
+    color: green;
+}
+
+ul{
+    margin: 0 1.05em;
+    line-height: 1.5em;
+    padding-top: 2em;
+}
+
+li{
+    font-size: 110%;
+    padding-left: 0.25em;
+}
+/*footer{
+    border-top: 2px solid black;
+    background-image: linear-gradient(45deg, black, orange, white);
+    clear: both;
+    padding-top: 5px;
+}
+footer p{
+    font-size: 80%;
+    text-align: center;
+    padding-bottom: 2%;
+    padding-top: 2%;
+    margin: 0%;
+}*/
+aside{
+    float:left;
+    width: 160px;
+    height: 620px;
+    /*border: 2px solid red;*/
+}
+
+aside ul{
+    list-style-type: none;
+    margin-left: 0.5em;
+}
+
+#left_nav_menu ul li a:hover, #left_nav_menu ul li a:focus{
+    color: green;
+}
+
+#left_nav_menu ul li{
+    border: 3px solid black;
+    width: 108px;
+    margin-bottom: 0.5em;
+    padding: 0;
+}
+
+#left_nav_menu ul li a {
+    background-color: orange;
+    color: black;
+    font-size: 100%;
+    font-weight: bold;
+    display: block ;
+    text-decoration: none;
+    padding: 0.25em 0.5em;
+}
+
+footer{
+    font-size: 90%;
+    text-align:center;
+    border-top: 2px solid black;
+    padding: 0.5em 1em;
+    line-height: 1px;
+    clear:left;
+    background-image: linear-gradient(45deg, white, orange, black) !important;
+    margin: 0;
+}
+
+section {
+    /*border:2px solid red;*/
+    float: right;
+    width: 80%;
+    overflow: hidden;
+    padding-right: 0px;
+}
+
+#nav_menu ul{
+    list-style-type: none;
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+#nav_menu ul li{
+    float: left;
+    padding: 0;
+}
+
+#nav_menu ul li a{
+    background-color: black;
+    color: white;
+    font-weight: 210;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    width: 160px;
+    padding: 0.5em 0;
+}
+
+#nav_menu ul ul{
+    display: none;
+    position: absolute;
+    top: 100%;
+}
+
+#nav_menu ul ul li{
+    float: none;
+}
+
+#nav_menu ul li:hover > ul{
+    display: block;
+}
+
+#nav_menu > ul::after{
+    display: block;
+    clear: both;
+    content: "";
+}
+
+#nav_menu ul li a.current_page{
+    color: orange;
+}
+
+#nav_menu ul li a:hover, #nav_menu ul li a:focus{
+    background-color: gray;
+}
+
+#unchanged area{
+    color: orange;
+}
+
+#unchanged a:visited{
+    color: orange;
+}
+
+#unchanged {
+    margin: auto;
+    line-height: 1;
+    margin-bottom: 1.5em;
+    padding-left: 1.3em;
+    margin-top: 0 !important;
+}
+
+#unchanged a:hover, #unchanged a:focus {
+    color: green;
+}
+
