@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AUM Computer Science Department</title>
+    <link rel="stylesheet" href="GPA.css">
+    <script src="GPA.js"></script>
+</head>
+<body>
+    <div id="body_box">
+        <header>
+            <div id="header">
+                <div id="title">Computer Science Department</div>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="Home.html">Home</a></li>
+                    <li><a href="Description.html">Program Description</a></li>
+                    <li><a href="TA.html">TA Application</a></li>
+                    <li><a href="GPA.html" class="current">GPA Calculator</a></li>
+                </ul>
+            </nav>
+            <div id="logo">
+                <img src="images/logo.png" alt="AUM Logo">
+            </div>
+        </header>
+        <main>
+            <section id="gpa_box">
+                <h2>Find your GPA!</h2>
+                <aside class="sentence">
+                    <p>
+                        Enter the number of credit hours for each course, and the letter grade for each of them. 
+                        At least 2 courses should be entered.
+                    </p>
+                </aside>
+                <div id="input_box">
+                    <div class="column_titles">
+                        <div class="credit_column">Credit Hours</div>
+                        <div class="grade_column">Grade</div>
+                    </div>
+                    <div class="no_of_courses">
+                        <div class="course">Course 1:</div>
+                        <input type="text" id="credit1" class="credit_userinput">
+                        <input type="text" id="grade1" class="grade_userinput">
+                    </div>
+                    <div class="no_of_courses">
+                        <div class="course">Course 2:</div>
+                        <input type="text" id="credit2" class="credit_userinput">
+                        <input type="text" id="grade2" class="grade_userinput">
+                    </div>
+                    <div class="no_of_courses">
+                        <div class="course">Course 3:</div>
+                        <input type="text" id="credit3" class="credit_userinput">
+                        <input type="text" id="grade3" class="grade_userinput">
+                    </div>
+                    <div class="no_of_courses">
+                        <div class="course">Course 4:</div>
+                        <input type="text" id="credit4" class="credit_userinput">
+                        <input type="text" id="grade4" class="grade_userinput">
+                    </div>
+                    <div class="no_of_courses">
+                        <div class="course">Course 5:</div>
+                        <input type="text" id="credit5" class="credit_userinput">
+                        <input type="text" id="grade5" class="grade_userinput">
+                    </div>
+                    <div class="gpa_result">
+                        <div class="course">Avg GPA:</div>
+                        <input type="text" id="result" readonly> 
+                    </div>
+                </div>
+                <div class="buttons">
+                    <button id="submit_button" onclick="cal_GPA()">Submit</button>
+                    <button id="reset_button" onclick="reset()">Reset</button>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <div id="f_box">
+                <div class="left">
+                    7400 East Drive <br>
+                    Montgomery, AL 36117 <br>
+                    Local: 334-244-3000 <br>
+                    Toll-Free: 800-227-2549
+                </div>
+                <div class="middle">
+                    <p>&copy; 2025 Riya Patel</p>
+                </div>
+                <div class="right">
+                    <a href="#"><img src="images/twt.jpeg" alt="Twitter"></a>
+                    <a href="#"><img src="images/pinterest-logo.png" alt="Pinterest"></a>
+                    <a href="#"><img src="images/facebook-social-network-logo.png" alt="Facebook"></a>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

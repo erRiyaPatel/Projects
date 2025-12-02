@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AUM Computer Science Department</title>
+    <link rel="stylesheet" href="TA.css">
+    <script src="TA.js"></script>
+</head>
+<body>
+    <div id="body_box">
+        <header>
+            <div id="header">
+                <div id="title">Computer Science Department</div>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="Home.html">Home</a></li>
+                    <li><a href="Description.html">Program Description</a></li>
+                    <li><a href="TA.html" class="current">TA Application</a></li>
+                    <li><a href="GPA.html">GPA Calculator</a></li>
+                </ul>
+            </nav>
+            <div id="logo">
+                <img src="images/logo.png" alt="AUM Logo">
+            </div>
+        </header>
+        <main>
+            <section id="box">
+                <h2>Teaching Assistant Application Form</h2>
+                <h3>Applicant information</h3>
+                <form id="TAform" action="survey_data.html" method="get">
+                    <div class="detail">
+                        <label>First name:</label>
+                        <input type="text" id="firstname" name="firstname" required>
+                    </div>
+                    <div class="detail">
+                        <label>Last name:</label>
+                        <input type="text" id="lastname" name="lastname" required>
+                    </div>
+                    <div class="detail">
+                        <label>Student ID:</label>
+                        <input type="text" id="student-Id" name="student-Id" required>
+                    </div>
+                    <div class="detail">
+                        <label>Gender:</label>
+                        <div class="options">
+                            <label>M <input type="checkbox" id="male"></label>
+                            <label>F <input type="checkbox" id="female"></label>
+                        </div>
+                    </div>
+                    <div class="detail">
+                        <label>GPA:</label>
+                        <input type="text" id="gpa" name="gpa" required>
+                    </div>
+                    <div class="detail">
+                        <label>Comments:</label>
+                        <textarea id="comments" name="comments" rows="4" cols="20"></textarea>
+                    </div>
+                    <aside class="ty_note">
+                        <p>Thank you for completing the application!</p>
+                    </aside>
+                    <div class="buttons">
+                        <input type="submit" value="Submit">
+                        <input type="reset" value="Reset">
+                    </div>
+                </form>
+            </section>
+        </main>
+        <footer>
+            <div id="f_box">
+                <div class="left">
+                    7400 East Drive <br>
+                    Montgomery, AL 36117 <br>
+                    Local: 334-244-3000 <br>
+                    Toll-Free: 800-227-2549
+                </div>
+                <div class="middle">
+                    <p>&copy; 2025 Riya Patel</p>
+                </div>
+                <div class="right">
+                    <a href="#"><img src="images/twt.jpeg" alt="Twitter"></a>
+                    <a href="#"><img src="images/pinterest-logo.png" alt="Pinterest"></a>
+                    <a href="#"><img src="images/facebook-social-network-logo.png" alt="Facebook"></a>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
